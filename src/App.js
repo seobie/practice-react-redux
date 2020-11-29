@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 
 import './App.css';
-import WaitingList from './components/WaitingList';
 import PaletteContainer from './containers/PaletteContainer';
 import CounterContainer from './containers/CounterContainer';
+import WaitingListContainer from './containers/WaitingListContainer';
 
 class App extends Component {
   render() {
@@ -11,7 +11,7 @@ class App extends Component {
       <div className="App">
         <PaletteContainer />
         <CounterContainer />
-        <WaitingList />
+        <WaitingListContainer />
       </div>
     );
   }
